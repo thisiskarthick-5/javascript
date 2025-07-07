@@ -12,6 +12,7 @@ function addnotes(notenam){
 function removenotes(notenam) {
     const index = note.indexOf(notenam);
     if(index !== -1){
+        note.splice(index,1);
         console.log(  "the " , notenam , "is removed");
     }
     else{
