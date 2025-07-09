@@ -1,4 +1,4 @@
-
+<center>
 
 <h1>guess game </h1>
 <p>guess number form 1 to 10</p>
@@ -8,7 +8,7 @@
 
 <p id="res"></p>
 <p id="rel"></p>
-
+</center>
 <script>
     
 
