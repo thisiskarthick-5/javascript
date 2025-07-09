@@ -1,0 +1,29 @@
+class detail {
+  
+  constructor(name , age){
+    this.name = name;
+    this.age = age;
+  }
+  
+  greet(){
+    console.log(' welcome ' , this.name);
+  }
+  
+  vot(){
+    console.log("this is voting webiste i need to verify your age ")
+  }
+  
+  verify(){
+    if((this.age) >= 18){
+      console.log("yes yourage is verified your eligible to vote");
+    }
+    else{
+      console.log("not eligible to vote");
+    }
+  }
+}
+
+const karthick = new detail("karthick" , 17);
+karthick.greet();
+karthick.vot();
+karthick.verify();
